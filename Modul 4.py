@@ -174,3 +174,150 @@ while True:
                                     print(" ")
                                     print("GOOD BYE.")
                                     break
+
+                                # Rayhan
+                                elif user5 == "THE RENEWAL":
+                                time.sleep(2)
+                                print(" ")
+                                print("HELLO, MY RENEWALS.")
+                                weapon = 300
+                                explosive = 500
+                                army = 400
+                                user6 = None
+                                user7 = None
+                                user8 = None
+                                time.sleep(2)
+                                print(" ")
+                                user6 = input(
+                                    "WHAT DO YOU GOT FOR ME, MY FRIEND? (CHOOSE ONE) \n>WEAPON \n>EXPLOSIVE \n>ARMY\n")
+                                user6 = user6.upper()
+                                if user6 == "WEAPON":
+                                    user6 = weapon
+                                    damage_point1.damage1(user6)
+                                    time.sleep(2)
+                                    print(" ")
+                                    user7 = input("ANYTHING ELSE? (CHOOSE ONE) \n>EXPLOSIVE \n>ARMY \n>ENOUGH\n")
+                                    user7 = user7.upper()
+                                    if user7 == "EXPLOSIVE":
+                                        user7 = explosive
+                                        damage_point2.damage2(user7)
+                                        time.sleep(2)
+                                        print(" ")
+                                        user8 = input("YOU GOT THE LAST ONE? (Y/N)\n")
+                                        user8 = user8.upper()
+                                        if user8 == "Y":
+                                            user8 = army
+                                            damage_point3.damage3(user8)
+                                            thank_you()
+                                            break
+                                        elif user8 == "N":
+                                            thank_you()
+                                            break
+                                        break
+                                    elif user7 == "ARMY":
+                                        user7 = army
+                                        damage_point2.damage2(user7)
+                                        time.sleep(2)
+                                        print(" ")
+                                        user8 = input("YOU GOT THE LAST ONE? (Y/N)\n")
+                                        user8 = user8.upper()
+                                        if user8 == "Y":
+                                            user8 = army
+                                            damage_point3.damage3(user8)
+                                            thank_you()
+                                            break
+                                        elif user8 == "N":
+                                            thank_you()
+                                            break
+                                    elif user7 == "ENOUGH":
+                                        thank_you()
+                                        break
+                                    break
+
+                                elif user6 == "EXPLOSIVE":
+                                    user6 = explosive
+                                    damage_point1.damage1(user6)
+                                    time.sleep(2)
+                                    print(" ")
+                                    user7 = input("ANYTHING ELSE? (CHOOSE ONE) \n>WEAPON \n>ARMY \n>ENOUGH\n")
+                                    user7 = user7.upper()
+                                    if user7 == "WEAPON":
+                                        user7 = weapon
+                                        damage_point2.damage2(user7)
+                                        time.sleep(2)
+                                        print(" ")
+                                        user8 = input("YOU GOT THE LAST ONE? (Y/N)\n")
+                                        user8 = user8.upper()
+                                        if user8 == "Y":
+                                            user8 = army
+                                            damage_point3.damage3(user8)
+                                            thank_you()
+                                            break
+                                        elif user8 == "N":
+                                            thank_you()
+                                            break
+                                        break
+                                    elif user7 == "ARMY":
+                                        user7 = army
+                                        damage_point2.damage2(user7)
+                                        time.sleep(2)
+                                        print(" ")
+                                        user8 = input("YOU GOT THE LAST ONE? (Y/N)\n")
+                                        user8 = user8.upper()
+                                        if user8 == "Y":
+                                            user8 = army
+                                            damage_point3.damage3(user8)
+                                            thank_you()
+                                            break
+                                        elif user8 == "N":
+                                            thank_you()
+                                            break
+                                    elif user7 == "ENOUGH":
+                                        thank_you()
+                                        break
+                                    break
+
+                                elif user6 == "ARMY":
+                                    user6 = army
+                                    damage_point1.damage1(user6)
+                                    time.sleep(2)
+                                    print(" ")
+                                    user7 = input("ANYTHING ELSE? (CHOOSE ONE) \n>WEAPON \n>EXPLOSIVE \n>ENOUGH\n")
+                                    user7 = user7.upper()
+                                    if user7 == "WEAPON":
+                                        user7 = weapon
+                                        damage_point2.damage2(user7)
+                                        time.sleep(2)
+                                        print(" ")
+                                        user8 = input("YOU GOT THE LAST ONE? (Y/N)\n")
+                                        user8 = user8.upper()
+                                        if user8 == "Y":
+                                            user8 = army
+                                            damage_point3.damage3(user8)
+                                            thank_you()
+                                            break
+                                        elif user8 == "N":
+                                            thank_you()
+                                            break
+                                        break
+                                    elif user7 == "EXPLOSIVE":
+                                        user7 = explosive
+                                        damage_point2.damage2(user7)
+                                        time.sleep(2)
+                                        print(" ")
+                                        user8 = input("YOU GOT THE LAST ONE? (Y/N)\n")
+                                        user8 = user8.upper()
+                                        if user8 == "Y":
+                                            user8 = army
+                                            damage_point3.damage3(user8)
+                                            thank_you()
+                                            break
+                                        elif user8 == "N":
+                                            thank_you()
+                                            break
+                                        break
+                                    elif user7 == "ENOUGH":
+                                        thank_you()
+                                        break
+                                    break
+                                break
