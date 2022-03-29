@@ -321,7 +321,7 @@ while True:
                                         break
                                     break
                                 break
-                            #Bang Dzakwan
+                            #Dzakwan Fakhriy
                                 elif user5 == "RATA ALADA":
                                     time.sleep(2)
                                     print(" ")
