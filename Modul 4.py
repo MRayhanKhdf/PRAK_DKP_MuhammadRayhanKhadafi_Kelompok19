@@ -1,3 +1,67 @@
+#Gery
+import time
+from datetime import datetime
+from tkinter import Y
+
+now = datetime.now()
+
+dt_string = now.strftime('%d/%m/%Y %H:%M')
+print(dt_string)
+print (" ")
+print("""
+░░██╗░█████╗░██╗░░
+░██╔╝██╔══██╗╚██╗░
+██╔╝░╚═╝███╔╝░╚██╗
+╚██╗░░░░╚══╝░░██╔╝
+░╚██╗░░░██╗░░██╔╝░
+░░╚═╝░░░╚═╝░░╚═╝░░""")
+now = datetime.now()
+
+dt_string = now.strftime('%d/%m/%Y %H:%M')
+print(dt_string)
+user1 = None
+
+class damage_point1:
+    def damage1 (acumulation1):
+        total_now = 1000
+        acumulation1 = acumulation1 + total_now
+        return acumulation1
+
+class damage_point2:
+    def damage2 (acumulation2):
+        acumulation1 = damage_point1.damage1(user6)
+        acumulation2 = acumulation2 + acumulation1
+        return acumulation2
+
+class damage_point3:
+    def damage3 (acumulation3):
+        acumulation2 = damage_point2.damage2(user7)
+        acumulation3 = acumulation3 + acumulation2
+        return print("TOTAL DAMAGE: ", acumulation3)
+        
+def thank_you():
+    time.sleep(2)
+    print(" ")
+    print("THANK YOU MY FRIEND.")
+    time.sleep(2)
+    print(" ")
+    print("EVERY CENT OF YOUR HELP MEANS EVERYTHING FOR US.")
+    time.sleep(2)
+    print(" ")
+    print("YOUR WAITING FINALLY WILL BE FULFILLED.")
+    time.sleep(2)
+    print(" ")
+    print("AND WE ARE GOING TO WATCH THE LAST SUNSET OF GOTHAM CITY.")
+    time.sleep(2)
+    print(" ")
+    print("NOW ENJOY YOUR WAITING WITH OUR MAGNIFICENT PLAN.")
+    time.sleep(2)
+    print(" ")
+    print("https://www.youtube.com/watch?v=fAVWEuXBOs0")
+    time.sleep(2)
+    print(" ")
+    print("https://www.youtube.com/watch?v=7CTeeVO6tbk")
+
 #Ebriliant
 #MAIN PROGRAM
 while True:
@@ -110,4 +174,3 @@ while True:
                                     print(" ")
                                     print("GOOD BYE.")
                                     break
-                                
